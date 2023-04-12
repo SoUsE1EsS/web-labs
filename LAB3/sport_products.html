@@ -1,0 +1,123 @@
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="print.css" media="print" />
+    <title>Online store</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="container d-flex direction-column">
+        <nav class="main-menu">
+          <ul>
+            <li><a href="index.html">Events</a></li>
+            <li><a href="schedule.html">Registration for classes</a></li>
+            <li><a href="teachers.html">Coaching staff</a></li>
+            <li><a href="sport_products.html">Sports goods</a></li>
+          </ul>
+        </nav>
+        <div class="profile">
+          <a href="">Entrance</a>
+        </div>
+      </div>
+    </header>
+    <main class="container d-flex direction-column">
+      <aside class="sidebar">
+        <form>
+          <fieldset class="sidebar-section">
+            <legend>Product Type</legend>
+            <div>
+              <input type="checkbox" name="topic" value="topic1" id="topic1" />
+              <label for="topic1">Balls</label>
+            </div>
+            <div>
+              <input type="checkbox" name="topic" value="topic2" id="topic2" />
+              <label for="topic2">Shoes</label>
+            </div>
+            <div>
+              <input type="checkbox" name="topic" value="topic3" id="topic3" />
+              <label for="topic3">Clothes</label>
+            </div>
+          </fieldset>
+
+          <button type="submit">Apply</button>
+        </form>
+      </aside>
+      <div class="page-content">
+        <h1 class="events">Sport goods</h1>
+        <div class="events-list">
+          <div class="event">
+            <div class="product-image">
+              <img src="Images/p1.png" alt="product1" />
+            </div>
+            <div class="product-details">
+              <header>Wilson ball</header>
+              <p class="information">Very swaggy ball, best of all.</p>
+              <div class="control">
+                <button class="btn">
+                  <span class="price">4500 &#8381;</span
+                  ><span class="buy">Order</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="event">
+            <div class="product-image">
+              <img src="Images/p2.png" alt="product2" />
+            </div>
+            <div class="product-details">
+              <header>Jordan 19 nike</header>
+              <p class="information">shesh</p>
+              <div class="control">
+                <button class="btn">
+                  <span class="price">5000 &#8381;</span
+                  ><span class="buy">Order</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="event">
+            <div class="product-image">
+              <img src="Images/p3.png" alt="product3" />
+            </div>
+            <div class="product-details">
+              <header>Lakers shirt</header>
+              <p class="information">Kobe i miss you</p>
+              <div class="control">
+                <button class="btn">
+                  <span class="price">2000 &#8381;</span
+                  ><span class="buy">Order</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="event">
+            <div class="product-image">
+              <img src="Images/p4.png" alt="product4" />
+            </div>
+            <div class="product-details">
+              <header>Shorts nba special edition (raptors)</header>
+              <p class="information">Red and black</p>
+              <div class="control">
+                <button class="btn">
+                  <span class="price">4000 &#8381;</span
+                  ><span class="buy">Order</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="scroll-to-top-btn">&#9650;</button>
+    </main>
+    <footer class="footer">
+      <div class="container">&copy; 2022</div>
+    </footer>
+  </body>
+</html>

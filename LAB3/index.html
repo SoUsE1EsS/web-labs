@@ -1,0 +1,145 @@
+<html lang="ru">
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <link rel="stylesheet" href="print.css" media="print" />
+      <title>Online store</title>
+    </head>
+
+    <body>
+      <header class="header">
+        <div class="container d-flex direction-column">
+          <nav class="main-menu">
+            <ul>
+              <li><a href="index.html">Events</a></li>
+              <li><a href="schedule.html">Registration for classes</a></li>
+              <li><a href="teachers.html">Coaching staff</a></li>
+              <li><a href="sport_products.html">Sports goods</a></li>
+            </ul>
+          </nav>
+          <div class="profile">
+            <a href="">Entrance</a>
+          </div>
+        </div>
+      </header>
+      <main class="container d-flex direction-column">
+        <aside class="sidebar">
+          <form>
+            <fieldset class="sidebar-section">
+              <legend>Topic</legend>
+              <div>
+                <input
+                  type="checkbox"
+                  name="topic"
+                  value="topic1"
+                  id="topic1"
+                />
+                <label for="topic1">Competitions</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="topic"
+                  value="topic2"
+                  id="topic2"
+                />
+                <label for="topic2">Training</label>
+              </div>
+              <div>
+                <input
+                  type="checkbox"
+                  name="topic"
+                  value="topic3"
+                  id="topic3"
+                />
+                <label for="topic3">Something else</label>
+              </div>
+            </fieldset>
+
+            <fieldset class="sidebar-section">
+              <legend>For whom</legend>
+              <div>
+                <input type="radio" name="group" value="group1" id="group1" />
+                <label for="group1">Participant</label>
+              </div>
+              <div>
+                <input type="radio" name="group" value="group2" id="group2" />
+                <label for="group2">Viewer</label>
+              </div>
+              <div>
+                <input type="radio" name="group" value="group3" id="group3" />
+                <label for="group3">I want to sign up</label>
+              </div>
+            </fieldset>
+
+            <button type="submit">Apply</button>
+          </form>
+        </aside>
+        <div class="page-content">
+          <h1 class="events">Events</h1>
+          <div class="events-list">
+            <div class="event">
+              <div class="product-image">
+                <img src="Images/i1.png" alt="event1" />
+              </div>
+              <div class="product-details">
+                <header>City Competition</header>
+                <p class="information">
+                  The first basketball competition in the city has ended!
+                </p>
+                <div class="control">
+                  <button class="btn">
+                    <span class="buy"> Details</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="event">
+              <div class="product-image">
+                <img src="Images/i2.png" alt="event2" />
+              </div>
+              <div class="product-details">
+                <header>Open basketball lesson</header>
+                <p class="information">
+                  From 01.09.2022, an open basketball lesson is possible in the
+                  city (for parents)!
+                </p>
+                <div class="control">
+                  <button class="btn">
+                    <span class="buy"> Details</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <div class="event">
+              <div class="product-image">
+                <img src="Images/i3.png" alt="event3" />
+              </div>
+              <div class="product-details">
+                <header>Recruitment for classes!</header>
+                <p class="information">
+                  We teach children from 4 years old and adults to play
+                  basketball!
+                </p>
+                <div class="control">
+                  <button class="btn">
+                    <span class="buy"> Details</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="scroll-to-top-btn">&#9650;</button>
+      </main>
+      <footer class="footer">
+        <div class="container">&copy; 2022</div>
+      </footer>
+    </body>
+  </html>
+</html>
