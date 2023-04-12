@@ -1,0 +1,23 @@
+.character {
+    background-color: rgb(90, 90, 90);
+    background-image: url("images/background22.jpg") ;
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: rgb(255, 255, 255);
+}
+
+.heading-line {
+    width: 300px;
+    height: 3px;
+    background-color: #ffffff;
+  }
+
+  .retro {
+    background-color: #792065;
+    color: white;
+  }
+
+  .btn-to-send {
+    background-color: #c39630;
+    color: white;
+  }
